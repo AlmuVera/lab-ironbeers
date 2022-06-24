@@ -5,3 +5,82 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: #2081c3;
+    width: 100%;  
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+   
+  }
+a {  
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: #f7f9f9;
+}
+footer{
+    background-color: #0a2c42;
+    color: #f7f9f9;
+    padding: 5px 20px;
+    width: 100%;
+    
+}
+/* CSS index.hbs */
+.home-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    color: white;
+    background-color: #2081c3;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    width: 250px;
+}
+
+.home-beer{
+    width: 65%;
+    display: block;
+    margin: 30px auto;
+    
+}
+
+
+.row-beer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px; 
+}
+
+.beer-element{
+    max-width: 30%;
+}
+.beer-element img{
+    width: auto;
+    height: 200px;
+    display: block;
+    margin: auto;
+
+}
+
+.beer-element span{
+    font-size: 15px;
+    font-weight: bold;
+    color: #bfbfbf;
+}
