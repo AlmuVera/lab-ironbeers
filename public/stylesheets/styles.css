@@ -29,10 +29,12 @@ a {
     color: #f7f9f9;
 }
 footer{
+    
     background-color: #0a2c42;
     color: #f7f9f9;
     padding: 5px 20px;
     width: 100%;
+   
     
 }
 /* CSS index.hbs */
